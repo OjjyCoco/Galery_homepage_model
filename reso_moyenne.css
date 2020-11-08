@@ -1,0 +1,335 @@
+.upper_header
+{
+	width: 100%;
+	height: 7px;
+	background: linear-gradient(to right, #c31432, #240b36);
+	z-index: 14;
+	margin:0;
+	padding: 0;
+}
+.arobase
+{
+	width:36px;
+	height: 52px;
+	float: right;
+	top: 7px;
+	right: 200px;
+	background: linear-gradient(to top, #c31432, #240b36);;
+	color: #FFFFFF;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	font-size: 22px;
+	z-index: 15;
+}
+.arobase > a
+{
+	color:white;
+	transition: 0.2s;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-right-width: 18px;
+    border-left-width: 18px;
+    border-bottom: 24px solid;
+    position: absolute;
+    bottom:0;
+    border-bottom-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+header
+{
+	width: 100%;
+	height: 66px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	z-index: 12;
+	background-color: white;
+	transition: 350ms;
+	border-bottom: 1px solid transparent;
+}
+nav > ul
+{
+	width: 800px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	left: 6%;
+}
+nav > ul > li
+{
+	list-style-type: none;
+	font-size: 18px;
+	margin-right: 50px;
+	font-family: 'OpenSans-Regular';
+	position: relative;
+	padding: 21px 10px;
+}
+nav a
+{
+	text-decoration: none;
+	transition: all 200ms;
+	color:black;
+}
+nav > ul > li:hover >a
+{
+	color: #AD2819;
+}
+.submenu
+{
+	display: none;
+}
+nav li:hover .submenu
+{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 5px;
+	z-index: 19;
+	color:white;
+}
+.submenu li
+{
+	padding: 10px 20px;
+	list-style-type: none;
+	font-size: 14px;
+	background: linear-gradient(to right, #c31432, #240b36);
+	transition: all 150ms;
+}
+.submenu li:hover
+{
+	opacity: 0.8;
+}
+.submenu li a
+{
+	color: white;
+}
+
+
+
+
+
+
+.logo
+{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+.milieu
+{
+	width:100%;
+	height: 647px;
+	background-image: url(montagne.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	top: 100px;
+}
+.Txt h2
+{
+	font-family: KlubKatz , AlexBrush-Regular;
+	font-size: 80px;
+	float: right;
+	width: 220px;
+	position: relative;
+	right: 235px;
+	top: 50px;
+	text-align: right;
+	line-height: 90px;
+}
+
+
+
+
+
+
+
+
+
+.no_reverse
+{
+	width: 100%;
+	height: 600px;
+	display: flex;
+	flex-direction: row;
+	background: linear-gradient(to right, #c31432, #240b36);
+}
+.reverse
+{
+	width: 100%;
+	height: 600px;
+	display: flex;
+	flex-direction: row-reverse;
+	background-color: #FFFFFF;
+}
+.reverse > aside
+{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
+}
+.no_reverse > aside
+{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 11;
+}
+section > aside > .reverseimage
+{
+	width: 85%;
+	height: 85%;
+	background: url(cat.jpg) center;
+	background-size: cover;
+	transition: 0.4s;
+	border: 20px ridge #240b36;
+
+}
+section > aside > .no_reverseimage
+{
+	width: 85%;
+	height: 85%;
+	background: url(fleure.png) center;
+	background-size: cover;
+	transition: 0.4s;
+	border: 20px ridge white;
+}
+section > aside > p:hover
+{
+	transform: scale(1.065);
+	background-position: center;
+	box-shadow: 0px 0px 10px black;
+}
+.reverse > article
+{
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	z-index: 9;
+}
+.no_reverse > article
+{
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	z-index: 9;
+}
+section
+{
+	position: relative;
+	top: 50px;
+}
+
+
+
+
+
+
+
+
+
+.quatuor
+{
+	width: 90%;
+	height: 500px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: auto;
+	background-color: #FFFFFF;
+}
+.img
+{
+	width: 350px;
+	height: 350px;
+	background: url(fleure.png) no-repeat;
+	background-size: 100%;
+	background-position: center;
+	transition: 0.4s;
+	border-radius: 5px;
+	box-shadow: 0px 0px 4px black;
+}
+.img:hover
+{
+	transform: scale(1.1);
+	opacity: 0.95;
+	box-shadow: 0px 0px 6px black;
+}
+
+
+
+
+
+
+
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #FFFFFF;
+}
+
+@font-face
+{
+	font-family: 'OpenSans-Regular';
+	src: url('OpenSans-Regular.ttf') format('truetype');
+}
+@font-face
+{
+	font-family: 'AlexBrush-Regular';
+	src: url('AlexBrush-Regular.ttf') format('truetype');
+}
+@font-face
+{
+	font-family: 'Latin-Modern-Roman';
+	src: url('Latin-Modern-Roman.otf') format('truetype');
+}
+@font-face
+{
+	font-family: 'KlubKatz';
+	src: url('KlubKatz.ttf') format('truetype');
+}

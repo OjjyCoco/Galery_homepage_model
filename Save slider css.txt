@@ -1,0 +1,77 @@
+CSS:
+
+.slider
+{
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+	margin: auto;
+	border-radius: 4px;
+	display: none;
+}
+.slides
+{
+	width: 100%;
+	animation: glisse 20s infinite;
+}
+.slide
+{
+	float:left;
+	border:1px solid black;
+	margin: 30px;
+}
+@keyframes glisse
+{
+	0%
+	{
+		transform: translateX(0);
+	}
+	10%
+	{
+		transform: translateX(0);
+	}
+	21%
+	{
+		transform: translateX(0);
+	}
+	33%
+	{
+		transform: translateX(-600px);
+	}
+	43%
+	{
+		transform: translateX(-600px);
+	}
+	54%
+	{
+		transform: translateX(-600px);
+	}
+	66%
+	{
+		transform: translateX(-1200px);
+	}
+	77%
+	{
+		transform: translateX(-1200px);
+	}
+	88%
+	{
+		transform: translateX(-1200px);
+	}
+	100%
+	{
+		transform: translateX(0);
+	}
+}
+
+
+HTML:
+
+
+<div class="slider">
+		        	<div class="slides">
+		        		<div class="slide"><img src="wp.jpg" alt="re"></div>
+		        		<div class="slide"><img src="ree.jpg" alt="ree"></div>
+		        		<div class="slide"><img src="re.jpg" alt="sable"></div>
+		        	</div>
+		        </div>
